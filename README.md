@@ -51,6 +51,19 @@ The actual growth is determined by the minimum value of either sink or source.
 9    RStrn     # daily RS Transpiration actual (mm day-1)
 10   RSlai     # daily RS LAI (-)
 11   RScut     # daily RS cutting event (0/1)
+
+0 year # 天气文件中的年份
+1 doy # 年度 doy
+2 RDD # 太阳辐射 （KJ M-2 Day-1）
+3 TMMN # 最低温度（摄氏度）
+4 TMMX # 最高温度（摄氏度）
+5 VP # 水蒸气压 （kPa）
+6 wn # 平均风速 （m s-1）
+7 雨 # 日降雨量 （mm day-1）
+8 RSevp # 每日 RS 蒸发实际量 （mm day-1）
+9 RStrn # 每日 RS 蒸腾量实际 （mm day-1）
+10 RSlai # 每日 RS LAI （-）
+11 RScut # 每日 RS 切割事件 （0/1）
 ```
 
 ## Input file example
